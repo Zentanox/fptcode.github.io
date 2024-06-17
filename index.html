@@ -285,6 +285,30 @@ print("Five is greater than two!")
     </div>
 </footer>
 <!-- ================ -->
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4557726128664!2d106.6267367025426!3d10.852897427980746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529466247deb7%3A0x837f6cf22372ab7e!2zUGjhu5UgVGjDtG5nIENhbyDEkOG6s25nIEZQVCBQb2x5dGVjaG5pYyBUUC5IQ00!5e0!3m2!1sen!2s!4v1718628191027!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <iframe width="560" height="460" src="https://www.youtube.com/embed/iRO7B-AnVEY?si=OTAzcaF-mp0oOdt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <script src="https://uhchat.net/code.php?f=cec17c"></script>    
