@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML Programming</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/JAVATutor.css">
+</head>
+<style>
+    #header .nav-right .log .singup:hover a{
+        background-color: orangered;
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+        color:#fff;
+        display: block;
+    }
+
+    #header .nav-right .log .login:hover a{
+        background-color: orangered;
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        color:#fff;
+        display: block;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .content {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    .learn-c-section {
+            background-color: #e7f3e7;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .learn-c-section h2 {
+            color: #333;
+        }
+
+        .learn-c-section p {
+            color: #666;
+        }
+
+        .learn-c-section .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .learn-c-section .btn:hover {
+            background-color: #45a049;
+        }
+
+        .example-section {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .example-section h2 {
+            color: #333;
+        }
+
+        .example-section p {
+            color: #666;
+        }
+
+        .example-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .try-it-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .try-it-btn:hover {
+            background-color: #45a049;
+        }
+</style>
+<body>
+    <!-- Thanh chức năng bên trên -->
+    <div id="header">
+        <strong>
+            <ul>
+                <ul class="nav">
+                    <div id="img"><a href="index.html"><img src="images/cropped-Logo_FPT-removebg-preview.png" alt="W3" height="40" width="55"></a></div>
+                    <div id="nav2">
+                        <li><a title="Hướng dẫn" href="Huongdan.html">Hướng dẫn</a></li>
+                        <li><a title="Bài tập" href="baitap.html">Bài tập</a></li>
+                        <li><a title="Chứng chỉ" href="chungchi.html">Chứng chỉ</a></li>
+                        <li><a title="Dịch vụ" href="dichvu.html">Dịch vụ</a></li>
+                        <li>
+                            <div class="search">
+                                <input type="text" placeholder=" Search...">
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+                <ul class="nav-right">
+                    <li><a title="premium" href="">Premium</a></li>
+                    <li><a title="Get Certified" href="">Lấy chứng chỉ</a></li>
+                    <div class="log">
+                        <li class="singup"><a href="dangnhap.html">Đăng nhập</a></li>
+                        <li class="login"><a href="dangki.html">Đăng kí</a></li>
+                    </div>
+                </ul>  
+            </ul>
+        </strong>
+    </div>
+    <div id="header2">
+        <li><a href="HuongdanHTML.html">HTML</a></li>
+        <li><a href="HuongdanCSS.html">CSS</a></li>
+        <li><a href="HuongdanJAVA.html">JAVA</a></li>
+        <li><a href="HuongdanC.html">C</a></li>
+    </div>
+   
+    <div class="container">
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu HTML</a></li>
+        </ul>
+    </div>
+
+ 
+    <div class="content">
+        <h1>Xin chào</h1>
+        <p>Đây là website sẽ giúp bạn học và hiểu rõ hơn về ngôn ngữ lập trình <strong>HTML</strong></p>
+
+
+        <div class="learn-c-section">
+            <h2>Thông tin cơ bản:</h2>
+            <p>Năm 1989, Berners-Lee đã viết một bản ghi nhớ đề xuất một hệ thống siêu văn bản dựa trên Internet.</p>
+            <p>HTML (viết tắt của từ HyperText Markup Language, hay còn gọi là "Ngôn ngữ Đánh dấu Siêu văn bản") là một ngôn ngữ đánh dấu được thiết kế ra để tạo nên các trang web trên World Wide Web.</p>
+            <a href="start-learning.html" class="btn">Bắt đầu học ngay bây giờ!»</a>
+        </div>
+    </div>
+    <div class="example-section">
+        <h2>Ví dụ cho từng chương học</h2>
+        <p>Một trong những ví dụ cho ngôn ngữ HTML cơ bản nhất: (In ra màn hình dòng chữ Hello World!)</p>
+        <div class="example-box">
+            <pre><code>
+                <div style="height:400px">
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span  style="color:mediumblue">&gt;</span></span><br>
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span  style="color:brown"><span  style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br>
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>title<span style="color:mediumblue">&gt;</span></span>HTML Tutorial<span style="color:brown"><span style="color:mediumblue">&lt;</span>/title<span style="color:mediumblue">&gt;</span></span><br><span  style="color:brown"><span  style="color:mediumblue">&lt;</span>/head<span  style="color:mediumblue">&gt;</span></span><br>
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br>
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>h1<span  style="color:mediumblue">&gt;</span></span>Hello World<span  style="color:brown"><span  style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span><br>
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br>
+<span style="color:brown"><span  style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+</div>
+        </code></pre>
+        </div>
+        <a href="try-it-yourself.html" class="try-it-btn">Chạy code »</a>
+    </div>
+</div>
+
+<div class="example-section">
+    <h2>Thực hành - ôn tập cho từng chương học</h2>
+    <p>Kiểm tra kiến thức bạn đã được học thông qua viết code: </p>
+    <div class="example-box">
+        <span style="color:brown"><span  style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span  style="color:mediumblue">&gt;</span></span><br>
+        <span style="color:brown"><span  style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span  style="color:brown"><span  style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br>
+        <span style="color:brown"><span  style="color:mediumblue">&lt;</span>title<span style="color:mediumblue">&gt;</span></span>HTML Tutorial<span style="color:brown"><span style="color:mediumblue">&lt;</span>/title<span style="color:mediumblue">&gt;</span></span><br><span  style="color:brown"><span  style="color:mediumblue">&lt;</span>/head<span  style="color:mediumblue">&gt;</span></span><br>
+        <span style="color:brown"><span  style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br>
+              <input name="ex1" maxlength="6" style="width: 65px;">.<input name="ex2" maxlength="3" style="width: 35px;">.<input name="ex3" maxlength="7" style="width: 75px;"><code class="language-java"><span class="token punctuation"></span><span class="token string"></span><span class="token punctuation"></span><span class="token punctuation"></span><br>
+                <span style="color:brown"><span  style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br>
+                <span style="color:brown"><span  style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+
+          </code></pre>
+    </div>
+    <a href="try-it-yourself.html" class="try-it-btn">Kiểm tra code »</a>
+</div>
+</div>
+    <!-- Phần Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Hướng dẫn phổ biến</h3>
+            <ul>
+                <li><a href="#">Hướng dẫn HTML</a></li>
+                <li><a href="#">Hướng dẫn CSS</a></li>
+                <li><a href="#">Hướng dẫn JavaScript</a></li>
+                <li><a href="#">Cách đọc Hướng dẫn</a></li>
+                <li><a href="#">Hướng dẫn SQL</a></li>
+                <li><a href="#">Hướng dẫn Python</a></li>
+                <li><a href="#">Hướng dẫn W3.CSS</a></li>
+                <li><a href="#">Hướng dẫn Bootstrap</a></li>
+                <li><a href="#">Hướng dẫn PHP</a></li>
+                <li><a href="#">Hướng dẫn Java</a></li>
+                <li><a href="#">Hướng dẫn C++</a></li>
+                <li><a href="#">Hướng dẫn jQuery</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Gợi ý phổ biến</h3>
+            <ul>
+                <li><a href="#">Gợi ý cho HTML</a></li>
+                <li><a href="#">Gợi ý cho CSS</a></li>
+                <li><a href="#">Gợi ý cho JavaScript</a></li>
+                <li><a href="#">Gợi ý cho SQL</a></li>
+                <li><a href="#">Gợi ý cho Python</a></li>
+                <li><a href="#">Gợi ý cho W3.CSS</a></li>
+                <li><a href="#">Gợi ý cho Bootstrap</a></li>
+                <li><a href="#">Gợi ý cho PHP</a></li>
+                <li><a href="#">Màu cho HTML</a></li>
+                <li><a href="#">Gợi ý cho Java</a></li>
+                <li><a href="#">Gợi ý cho Angular</a></li>
+                <li><a href="#">Gợi ý cho jQuery</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Ví dụ phổ biến</h3>
+            <ul>
+                <li><a href="#">Ví dụ về HTML</a></li>
+                <li><a href="#">Ví dụ về CSS</a></li>
+                <li><a href="#">Ví dụ về JavaScript</a></li>
+                <li><a href="#">Ví dụ về How To</a></li>
+                <li><a href="#">Ví dụ về SQL</a></li>
+                <li><a href="#">Ví dụ về Python</a></li>
+                <li><a href="#">Ví dụ về W3.CSS</a></li>
+                <li><a href="#">Ví dụ về Bootstrap</a></li>
+                <li><a href="#">Ví dụ về PHP</a></li>
+                <li><a href="#">Ví dụ về Java</a></li>
+                <li><a href="#">Ví dụ về XML</a></li>
+                <li><a href="#">Ví dụ về jQuery</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Lấy chứng chỉ</h3>
+            <ul>
+                <li><a href="#">Chứng chỉ HTML</a></li>
+                <li><a href="#">Chứng chỉ CSS</a></li>
+                <li><a href="#">Chứng chỉ JavaScript</a></li>
+                <li><a href="#">Chứng chỉ Front End</a></li>
+                <li><a href="#">Chứng chỉ SQL</a></li>
+                <li><a href="#">Chứng chỉ Python</a></li>
+                <li><a href="#">Chứng chỉ PHP</a></li>
+                <li><a href="#">Chứng chỉ jQuery</a></li>
+                <li><a href="#">Chứng chỉ Java</a></li>
+                <li><a href="#">Chứng chỉ C++</a></li>
+                <li><a href="#">Chứng chỉ C#</a></li>
+                <li><a href="#">Chứng chỉ XML</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- ================ -->
+
+</body>
+</html>
